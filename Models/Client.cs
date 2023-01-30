@@ -1,6 +1,6 @@
 ﻿namespace WebApplicationVisitor.Models
 {
-    class Client
+    public class Client
     {
         private List<IShape> _shapes = new List<IShape>();
         private AreaVisitor _visitor = new AreaVisitor();
